@@ -1,0 +1,15 @@
+@import url("https://use.typekit.net/gud1vvs.css");
+body{
+    margin:0;
+    background: url("https://img.freepik.com/free-vector/watercolor-paper-with-floral-design_53876-97360.jpg?t=st=1742466450~exp=1742470050~hmac=6399ccfa20e9716fb732708a6a7b9e12444781e839923b4239a2037c7b8deaab&w=996");
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   align-items: center;
+  font-family: "permanent-marker", sans-serif;;
+   font-size: 25px;
+   font-weight: bold;
+   color: rgb(226, 43, 116);
+   
+   
+}
