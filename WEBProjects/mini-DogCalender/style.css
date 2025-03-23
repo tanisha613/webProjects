@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(242, 244, 245);
+    font-family: cursive;
+    background-color: rgba(32, 1, 1, 0.611);
+    
+}
+.container{
+    border-radius: 5px;
+    width: 300px;
+    background: url("https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    text-align: center;
+    box-shadow: 0 7px 8px rgba(255, 129, 129, 0.5);
+    overflow: hidden;
+    
+}
+
+.month-name{
+    color: white;
+    margin:0;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.day-name{
+    color: rgb(244, 137, 221);
+    font-size: 20px;
+}
+.day-number{
+    font-size: 80px;
+    color: rgb(70, 70, 136);
+    margin: 0;
+    font-weight: 900;
+}
+.year{
+    margin: 20px;
+    color: rgb(247, 1, 95);
+    font-size: 30px;
+    font-weight: 500px;
+}
