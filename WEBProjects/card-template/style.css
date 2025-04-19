@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(14, 92, 148, 0.807);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.card{
+    width: 49%;
+    max-width: 900px; 
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.leftContainer{
+    display: flex;
+}
+.leftContainer img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(59, 2, 31, 0.771);
+    padding: 15px;
+}
+.rightContainer h1{
+   color:white;
+   font-weight: bold;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    font-size: clamp(1.5rem, 2vw, 2rem)
+
+
+}
+#para{
+    color:rgb(235, 234, 234);
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     margin: 10px 0;
+     font-size: clamp(0.9rem, 1.2vw, 1rem);
+
+}
+
+.addInfo{
+    display: flex;
+    flex-direction: row;
+   margin: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+        
+
+}
+.stat p{
+
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        align-items: center;
+        justify-content: space-between;
+        font-size: clamp(0.8rem, 1vw, 1rem);
+        
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .leftContainer, .rightContainer {
+        width: 100%;
+    }
+    .leftContainer {
+        height: 200px; 
+    }
+    
+    .addInfo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .stat {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 480px) {
+    .rightContainer h1 {
+        font-size: 1.3rem;
+    }
+    
+    #para {
+        font-size: 0.8rem;
+    }
+    
+    .stat p {
+        font-size: 0.7rem;
+    }
+}
